@@ -15,7 +15,7 @@
 # 🤔 Ta com duvida em como enviar respostas com JS??
 
 <p> 
-Muitxs programadxres sentem dificuldades em solucionar os problemas do URI com JavaScript por não entender como funciona a entrada de dados. Relaxa! Eu vou te explicar:
+Muitxs programadorxs sentem dificuldades em solucionar os problemas do URI com JavaScript por não entender como funciona a entrada de dados. Relaxa! Eu vou te explicar:
 
 Primeiramente, crie uma arquivo chamado 'stdin' em sua pasta. Iremos usar esse arquivo para ler os valores do nosso problema!
 
