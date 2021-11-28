@@ -1,12 +1,12 @@
 <h1 align='center'>
-    URI PROBLEMAS COM JS + Guia
+   BEECROWD - GUIA DE SOLUÇÕES COM JAVASCRIPT & PROBLEMAS RESOLVIDOS COM JAVASCRIPT
 </h1>
 
 # 🤠 Infos
 
-- Repositório destinado a colocar meus problemas resolvidos no [URI](https://www.urionlinejudge.com.br/judge/pt) utilizando JavaScript.
+- Repositório destinado a colocar meus problemas resolvidos no [Beecrowd](https://www.beecrowd.com.br/judge/pt) utilizando JavaScript.
 
-- Guia de como resolver problemas do URI com JavaScript.
+- Guia de como resolver problemas do Beecrowd com JavaScript.
 
 # 💻Tecnologias utilizadas
 
@@ -15,13 +15,13 @@
 # 🤔 Ta com duvida em como enviar respostas com JS??
 
 <p> 
-Muitxs programadorxs sentem dificuldades em solucionar os problemas do URI com JavaScript por não entender como funciona a entrada de dados. Relaxa! Eu vou te explicar:
+Muitxs programadorxs sentem dificuldades em solucionar os problemas do beecrowd com JavaScript por não entender como funciona a entrada de dados. Relaxa! Eu vou te explicar:
 
 Primeiramente, crie uma arquivo chamado 'stdin' em sua pasta. Iremos usar esse arquivo para ler os valores do nosso problema!
 
 <img src= 'imagensReadme/img1.png' >
 
-Agora, vamos resolver o problema [1001](https://www.urionlinejudge.com.br/judge/pt/problems/view/1001) do URI. Para isso, temos que iniciar declarando o nosso input:
+Agora, vamos resolver o problema [1001](https://www.beecrowd.com.br/judge/pt/problems/view/1001) do Beecrowd. Para isso, temos que iniciar declarando o nosso input:
 
 ````
 var input = require('fs').readFileSync('stdin', 'utf8')
@@ -44,7 +44,7 @@ var valoresRecebidos = input.split('\n')
 ````
 
 
-Digite isso no seu código. Perceba que declaramos uma variável chamada *valoresRecebidos*, essa variável irá receber os valores do input e armazena-los. Mas, por que usar o método *.split*? A resposta é simples, o nosso input esta retornando uma string, então o método split irá criar uma lista ordenada de substrings de acordo com o nosso divisor, que no caso foi o "\n", pois precisamos quebrar linha na hora de receber os valores conforme o URI pede.
+Digite isso no seu código. Perceba que declaramos uma variável chamada *valoresRecebidos*, essa variável irá receber os valores do input e armazena-los. Mas, por que usar o método *.split*? A resposta é simples, o nosso input esta retornando uma string, então o método split irá criar uma lista ordenada de substrings de acordo com o nosso divisor, que no caso foi o "\n", pois precisamos quebrar linha na hora de receber os valores conforme o beecrowd pede.
 
 Vamos imprimir a variável *valoresRecebidos* para acompanhar o processo:
 
@@ -81,11 +81,11 @@ var X = A + B
 
 console.log('X = ' + X)
 ````
-Vamos testa-lo para ver se ta funcionando conforme o URI deseja!
+Vamos testa-lo para ver se ta funcionando conforme o beecrowd deseja!
 
 <img src= 'imagensReadme/img4.png'>
 
-Aeee! Bingo! Você conseguiu resolver o problema 1001 do URI! Não pera... Ainda falta um maldito detalhe 😜. Sabe a nosso input que ta lendo o arquivo 'stdin'? Esse arquivo tem o mesmo nome do arquivo que compila e verifica as entradas no própio URI! Ou seja, com esse comando vamos estar acessando as pastas do URI e receber os valores da entrada. Só que o diretório do arquivo stdin do URI é diferente do nosso! Se enviarmos assim, nossa solução irá dar *Runtime error*. Para resolver esse problema, devemos apenas adicionar o "/dev/stdin" no nosso parâmetro da função 😀. 
+Aeee! Bingo! Você conseguiu resolver o problema 1001 do beecrowd! Não pera... Ainda falta um maldito detalhe 😜. Sabe a nosso input que ta lendo o arquivo 'stdin'? Esse arquivo tem o mesmo nome do arquivo que compila e verifica as entradas no própio beecrowd! Ou seja, com esse comando vamos estar acessando as pastas do beecrowd e receber os valores da entrada. Só que o diretório do arquivo stdin do beecrowd é diferente do nosso! Se enviarmos assim, nossa solução irá dar *Runtime error*. Para resolver esse problema, devemos apenas adicionar o "/dev/stdin" no nosso parâmetro da função 😀. 
 
 Veja: 
 
@@ -108,9 +108,9 @@ var X = A + B
 console.log('X = ' + X)
 ````
 
-Parabéns!! Você conseguiu resolver o problema 1001 do URI com JavaScript, a linguagem mais bonita da internet (brincadeira... ou não...).
+Parabéns!! Você conseguiu resolver o problema 1001 do beecrowd com JavaScript, a linguagem mais bonita da internet (brincadeira... ou não...).
 
-Se esse conteúdo foi útil para você, por favor clique na star do respositório, pois ficarei muito feliz em saber que de alguma maneira fiz algo útil para alguém da nossa comunidade. Me adiciona lá no URI pra gente ver nossas conquistas! Basta clicar aqui: [GabrielDuete-URI](https://www.urionlinejudge.com.br/judge/pt/profile/412152).
+Se esse conteúdo foi útil para você, por favor clique na star do respositório, pois ficarei muito feliz em saber que de alguma maneira fiz algo útil para alguém da nossa comunidade. Me adiciona lá no beecrowd pra gente ver nossas conquistas! Basta clicar aqui: [GabrielDuete-beecrowd](https://www.beecrowd.com.br/judge/pt/profile/412152).
 
 Muito obrigado por ter lido até aqui e ter aprendido, você é incrível mesmo 💜. Nunca desista dos estudos e continue focado mesmo com tantas dificuldades e coisas pra estudar, eu sei que você consegue!
 
