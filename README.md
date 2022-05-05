@@ -17,7 +17,7 @@
 <p> 
 Muitxs programadorxs sentem dificuldades em solucionar os problemas do beecrowd com JavaScript por não entender como funciona a entrada de dados. Relaxa! Eu vou te explicar:
 
-Primeiramente, crie uma arquivo chamado 'stdin' em sua pasta. Iremos usar esse arquivo para ler os valores do nosso problema!
+Primeiramente, crie um arquivo chamado 'stdin' em sua pasta. Iremos usar esse arquivo para ler os valores do nosso problema!
 
 <img src= 'imagensReadme/img1.png' >
 
