@@ -11,7 +11,7 @@
 # Sumário 📒
 
 1. [Guia](#🤔-ta-com-duvida-em-como-enviar-respostas-com-js)
-2. [Como Contribuir pro repositório]()
+2. [Como Contribuir pro repositório](#📌-como-contribuir)
 
 # 🤔 Ta com duvida em como enviar respostas com Javascript?
 
@@ -127,7 +127,7 @@ Muito obrigado por ter lido até aqui e ter aprendido, você é incrível mesmo 
 ## Quer contribuir?
 
 <p> 
-Boa! Você pode contribuir de duas maneiras: pode adicionar informaçao extra no guia, ou pode enviar soluções que você resolveu no beecrowd! Segue os passos:
+Boa! Você pode contribuir de duas maneiras: pode adicionar informaçao extra no guia, ou pode enviar soluções que você resolveu no beecrowd, só serão aceitas soluções feitas com javascript! Segue os passos:
 
 ### Primeiro organize o setup:
 
@@ -137,7 +137,7 @@ Boa! Você pode contribuir de duas maneiras: pode adicionar informaçao extra no
 
 #### Contribuindo pro guia:
 
-1. Faça as alterações no README.md
+1. Faça suas alterações no README.md
 2. Crie um branch para subir suas alterações a partir da main `(git checkout -B <sua-branch>)`
 3. Depois faça `git add .`
 4. Realize o Commit tipo: `git commit -m 'feat: add info blablabla'`
@@ -147,11 +147,13 @@ Boa! Você pode contribuir de duas maneiras: pode adicionar informaçao extra no
 #### Contribuindo com questões do bee:
 
 1. Crie uma pasta com o seu nome do github dentro da pasta do tipo de desafio que você está resolvendo, tipo: `iniciante/seu-nome/`
-2. Coloque sua solução em um arquivo com a numeração do desafio, ex: `1020.js`
+2. Nomeie seu arquivo com a numeração do desafio, ex: `1020.js`
 3. Crie um branch para subir suas alterações a partir da main `(git checkout -B <sua-branch>)`
 4. Depois faça `git add .`
-5. Realize o Commit tipo: `git commit -m 'feat: add info blablabla'`
-6. Realize o Push no Branch `git push origin <sua-branch>`
+5. Realize o Commit, tipo: `git commit -m 'feat: add info blablabla'`
+6. Realize o Push no seu Branch `(git push origin <sua-branch>)`
 7. Abra um Pull Request
+
+#### Depois só esperar que irei avaliar e aprovar! Ou colocar alguma sugestão. Desde já agradeço por contribuir! 💜
 
 </p>
