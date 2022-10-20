@@ -8,7 +8,7 @@
 
 - Guia de como resolver problemas do Beecrowd com JavaScript.
 
-# Sumário 📒
+# 📒 Sumário
 
 1. [Guia](#-ta-com-duvida-em-como-enviar-respostas-com-js)
 2. [Como Contribuir pro repositório](#-como-contribuir)
