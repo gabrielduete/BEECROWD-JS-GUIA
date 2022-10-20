@@ -10,8 +10,8 @@
 
 # Sumário 📒
 
-1. [Guia](#🤔-ta-com-duvida-em-como-enviar-respostas-com-js)
-2. [Como Contribuir pro repositório](#📌-como-contribuir)
+1. [Guia](#-ta-com-duvida-em-como-enviar-respostas-com-js)
+2. [Como Contribuir pro repositório](#-como-contribuir)
 
 # 🤔 Ta com duvida em como enviar respostas com Javascript?
 
