@@ -2,7 +2,6 @@
    BEECROWD - GUIA DE SOLUÇÕES COM JAVASCRIPT & PROBLEMAS RESOLVIDOS COM JAVASCRIPT
 </h1>
 
-
 # 🤠 Infos
 
 - Repositório destinado a colocar meus problemas resolvidos no [Beecrowd](https://www.beecrowd.com.br/judge/pt) utilizando JavaScript.
