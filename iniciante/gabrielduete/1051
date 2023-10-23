@@ -1,0 +1,21 @@
+let salario = parseFloat(lines.shift());
+
+// Condição para Isento
+if (salario <= 2000.00){
+    console.log("Isento");
+    
+// Condição para desconto de 0.08%    
+}else if (salario > 2000.01  && salario <= 3000.00){
+    saldo = (salario - 2000.00) * 0.08;
+    console.log(`R$ ${saldo.toFixed(2)}`);
+    
+// Condição para desconto de 0.18%    
+}else if (salario > 3000.01 && salario <= 4500.00){
+    saldo = (salario - 3000.00) * 0.18 + (1000.00 * 0.08);
+    console.log(`R$ ${saldo.toFixed(2)}`);
+    
+// Condção para desconto de 0.28%    
+}else if (salario > 4500.01){
+    saldo = (salario - 4500.00) * 0.28 + (1500.00 * 0.18) + (1000.00 * 0.08);
+    console.log(`R$ ${saldo.toFixed(2)}`);
+}
