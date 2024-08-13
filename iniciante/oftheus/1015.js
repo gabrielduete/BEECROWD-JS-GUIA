@@ -1,0 +1,10 @@
+let input = require('fs').readFileSync('stdin', 'utf8');
+let lines = input.split('\n');
+let line1 = lines.shift().split(" ");
+let line2 = lines.shift().split(" ");
+let A = parseFloat(line1.shift());
+let B = parseFloat(line1.shift());
+let C = parseFloat(line2.shift());
+let D = parseFloat(line2.shift());
+let distancia = Math.sqrt((Math.pow((C-A),2))+(Math.pow((D-B),2)));
+console.log(distancia.toFixed(4));
